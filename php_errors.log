@@ -1,0 +1,9 @@
+[03-Sep-2015 20:41:49 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ubuntu/workspace/wp-admin/includes/plugin-install.php on line 83
+[03-Sep-2015 20:41:49 UTC] PHP Stack trace:
+[03-Sep-2015 20:41:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugin-install.php:0
+[03-Sep-2015 20:41:49 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/plugin-install.php:129
+[03-Sep-2015 20:41:49 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[03-Sep-2015 20:41:49 UTC] PHP   4. install_dashboard() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[03-Sep-2015 20:41:49 UTC] PHP   5. install_popular_tags() /home/ubuntu/workspace/wp-admin/includes/plugin-install.php:143
+[03-Sep-2015 20:41:49 UTC] PHP   6. plugins_api() /home/ubuntu/workspace/wp-admin/includes/plugin-install.php:123
+[03-Sep-2015 20:41:49 UTC] PHP   7. trigger_error() /home/ubuntu/workspace/wp-admin/includes/plugin-install.php:83
